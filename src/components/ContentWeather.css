@@ -1,0 +1,154 @@
+#container-weather{
+    margin: 2% auto;
+    width: 80%;
+    padding: 1em;
+    height: 300px;
+    border: 0.2px solid rgba(128, 128, 128, 0.295);
+    display: flex;
+    align-items: center;
+}
+
+
+.pais-ciudad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 100%;
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+}
+
+.pais-ciudad h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pais-ciudad h3{
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+.pais-ciudad h4{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#temperatura{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 660px) { 
+    #container-weather{
+        flex-direction: column;
+        height: auto;
+        gap: 1em;
+        font-size: 16px;
+    }
+    .pais-ciudad{
+        width: 80%;
+    }
+    #temperatura{
+        font-size: 16px;
+
+        width: 80%;
+    }
+}
+
+.fondo1{
+    background-image: url('https://s7d2.scene7.com/is/image/TWCNews/clouds_from_above');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    -webkit-text-stroke: 0.7px black; /* Para navegadores WebKit (Safari, Chrome) */
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fondo2{
+    background-image: url('https://img.freepik.com/vector-premium/fondo-pantalla-cielo-videoconferencia_23-2148631817.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-text-stroke: 0.5px black; /* Para navegadores WebKit (Safari, Chrome) */
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.fondo3{
+    background-image: url('https://img.freepik.com/free-vector/flat-colorful-spring-landscape_23-2148432766.jpg?w=2000');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    -webkit-text-stroke: 0.5px black; /* Para navegadores WebKit (Safari, Chrome) */
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.fondo4{
+    background-image: url('https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cumulus-cloud.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    -webkit-text-stroke: 0.5px black; /* Para navegadores WebKit (Safari, Chrome) */
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fondo5{
+    background-image: url('https://as1.ftcdn.net/v2/jpg/01/59/19/50/1000_F_159195095_oTIDLjfB75eVu7erroLn3n6NMjCZ71ul.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    -webkit-text-stroke: 0.5px black; /* Para navegadores WebKit (Safari, Chrome) */
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fondo6{
+    background-image: url('https://www.lightstalking.com/wp-content/uploads/photo-by-nathan-anderson-2-1024x670.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    -webkit-text-stroke: 0.5px black; /* Para navegadores WebKit (Safari, Chrome) */
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.fondo7{
+   background-image: url('https://www.marinij.com/wp-content/uploads/2021/01/MIJ-L-RAIN-0129-24.jpg?w=640');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+   /*  background-position: center; */
+    -webkit-text-stroke: 0.5px black; /* Para navegadores WebKit (Safari, Chrome) */
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+.fondo{
+    background-color: aquamarine;
+}

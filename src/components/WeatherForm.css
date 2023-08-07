@@ -1,0 +1,23 @@
+.form-city{
+    padding: 2em;
+    margin: 2% auto;
+    width: 80%;
+    height: auto;
+    background-color: rgb(17, 17, 92);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.form-city input{
+    width: 80%;
+    height: 45px;
+    border: none;
+    padding-left: 10px;
+}
+
+.form-city button{
+    width: 30%;
+    height: 40px;
+}
